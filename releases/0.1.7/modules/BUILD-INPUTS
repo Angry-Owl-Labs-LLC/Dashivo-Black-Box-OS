@@ -1,0 +1,16 @@
+# The pinned inputs of the module build for Black Box OS 0.1.7 (from our image build script).
+# KERNEL_SRC_PATHS*: the files of the kernel source at KERNEL_SRC_COMMIT the scripts build from (git archive).
+# USB_WIFI_DEBS: URL and SHA-256 of Arduino's kernel headers package and Debian's firmware packages.
+# BUILDER: the debian:trixie arm64 container image the build runs in (by digest).
+
+KERNEL_RELEASE=7.0.0-g122c2c22d838
+KERNEL_SRC_GIT=https://github.com/arduino/linux-qcom.git
+KERNEL_SRC_COMMIT=122c2c22d838ca826e7f4e7360df96fb4e8f7ad2
+KERNEL_SRC_PATHS="drivers/net/wireless/mediatek/mt76 drivers/net/wireless/mediatek/mt7601u drivers/net/wireless/realtek/rtw88 drivers/net/wireless/realtek/rtl8xxxu COPYING LICENSES/preferred/GPL-2.0 LICENSES/preferred/BSD-3-Clause LICENSES/preferred/BSD-3-Clause-Clear"
+BUILDER=debian@sha256:913f6706df59a68922d1dd08f78c2476560a8d367897200a6005b00e5f67c2d5
+USB_WIFI_DEBS="
+https://apt-repo.arduino.cc/pool/main/l/linux-upstream/linux-headers-7.0.0-g122c2c22d838_7.0.0-g122c2c22d838-1_arm64.deb 4d1fb6b7f3b7633ac8d42b5c1d4638bccfc81a09e6a62c845f0609be264a82d6
+https://deb.debian.org/debian/pool/non-free-firmware/f/firmware-nonfree/firmware-mediatek_20250410-2_all.deb 957f82d72d413f4577f45bfad03237b1dd6f8693eddc226ac452f9c5d4187012
+https://deb.debian.org/debian/pool/non-free-firmware/f/firmware-nonfree/firmware-misc-nonfree_20250410-2_all.deb 351924ccf5fe3ec5c3e68ae1b283baf6b1674cedca07b0ebf0014c74faba43df
+https://deb.debian.org/debian/pool/non-free-firmware/f/firmware-nonfree/firmware-realtek_20250410-2_all.deb 925755a9b0891c7dc39bbb73d28ab8f7193d37303b5022e8bc9d458b9b4aaa4e
+"

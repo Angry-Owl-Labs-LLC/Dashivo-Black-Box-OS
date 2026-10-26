@@ -1,0 +1,8 @@
+Linux kernel in Black Box OS 0.1.6
+
+Kernel release:  7.0.0-g122c2c22d838 (package linux-image-7.0.0-g122c2c22d838 7.0.0-g122c2c22d838-1, from Arduino's UNO Q image 20260528-558)
+Source:          https://github.com/arduino/linux-qcom
+Commit:          122c2c22d838ca826e7f4e7360df96fb4e8f7ad2
+Archive:         bbos-0.1.0/linux-qcom-122c2c22d838ca826e7f4e7360df96fb4e8f7ad2.tar.gz (git archive of that commit)
+Configuration:   kernel-config-7.0.0-g122c2c22d838 in this folder (the image's /boot/config-7.0.0-g122c2c22d838)
+Licence:         GPL-2.0 WITH Linux-syscall-note (COPYING in the source)

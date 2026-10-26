@@ -1,0 +1,47 @@
+Black Box OS: open-source code
+Copyright notices and licences
+
+Black Box OS is distributed by Angry Owl Labs LLC. It is built from Debian GNU/Linux (trixie), Arduino's Debian image
+for the Arduino UNO Q (base image 20260528-558) and Arduino's Linux kernel for the UNO Q, plus a few Linux kernel
+drivers that we build, unmodified, from that same kernel source, and Dashivo's own software.
+
+This repository holds the source code, or the exact location and checksum of the source code, of the open-source
+software in each Black Box OS release, and the scripts we use to build the kernel modules we add.
+
+Every component keeps its own licence and its own copyright notices:
+
+  - The Linux kernel and the kernel modules we build: GPL-2.0 (with the Linux-syscall-note), some files dual-licensed
+    (for example GPL-2.0 OR BSD-3-Clause for rtw88 / rtw89, BSD-3-Clause-Clear for mt76).
+    See LICENSES/Linux-kernel-COPYING.txt and the LICENSES folder inside the kernel source archive.
+  - Debian packages: each under the licences named in its debian/copyright file, which is part of the package's
+    source and is also installed on the device at /usr/share/doc/<package>/copyright. releases/<version>/packages.tsv
+    lists the licences of every package of that release.
+  - Arduino's packages (arduino-cli, arduino-router, arduino-app-lab, arduino-linux-config): GPL-3.0, with the
+    third-party notices in their own copyright files.
+  - Qualcomm's rebuild of PipeWire (LGPL-2.1+ and MIT): Debian's source plus Qualcomm's published change.
+
+The licence texts used most are in the LICENSES folder of this repository:
+
+  LICENSES/GPL-2.0.txt              GNU General Public License, version 2
+  LICENSES/GPL-3.0.txt              GNU General Public License, version 3
+  LICENSES/LGPL-2.0.txt             GNU Library General Public License, version 2
+  LICENSES/LGPL-2.1.txt             GNU Lesser General Public License, version 2.1
+  LICENSES/LGPL-3.0.txt             GNU Lesser General Public License, version 3
+  LICENSES/Apache-2.0.txt           Apache License, version 2.0
+  LICENSES/MPL-2.0.txt              Mozilla Public License, version 2.0
+  LICENSES/Linux-kernel-COPYING.txt the Linux kernel's own COPYING file
+
+Nothing in this repository changes the licence of any component. No component's licence is granted by Angry Owl Labs
+LLC beyond what that licence itself grants.
+
+Dashivo's own software in Black Box OS (the Black Box service, its settings and its tools) is proprietary to Angry Owl
+Labs LLC. It is not in this repository and is not licensed by it.
+
+The files under assets/ (the Black Box OS logo, icon and artwork) are not open source; see "Trademarks" in README.md.
+
+Trademarks: Dashivo(TM) and Black Box OS are trademarks of Angry Owl Labs LLC. Arduino and UNO are trademarks of
+Arduino S.r.l. Debian is a registered trademark of Software in the Public Interest, Inc. Linux is the registered
+trademark of Linus Torvalds. Qualcomm is a trademark of Qualcomm Incorporated. GitHub is a trademark of GitHub, Inc.
+The open-source licences in this repository do not grant any trademark rights.
+
+Questions about this repository or a source code request: support@dashivo.app
