@@ -4,8 +4,8 @@
 
 | Build | Channel | Built | Packages | Package list |
 |---|---|---|---:|---|
-| `0.2.1+1` | Beta · Public beta | 2026-10-25 | 959 | package list of `0.2.2+1` (no copy of this image was kept; same base image, pinned packages and scripts) |
-| `0.2.1+2` | Beta · Public beta | 2026-10-25 | 959 | package list of `0.2.2+1` (no copy of this image was kept; same base image, pinned packages and scripts) |
+| `0.2.1+1` | Beta | 2026-10-25 | 959 | package list of `0.2.2+1` (no copy of this image was kept; same base image, pinned packages and scripts) |
+| `0.2.1+2` | Beta | 2026-10-25 | 959 | package list of `0.2.2+1` (no copy of this image was kept; same base image, pinned packages and scripts) |
 
 ## Source
 
@@ -21,11 +21,11 @@ of the first version that shipped its packages; later versions point back to it)
 
 | Release | Archive | Size | SHA-256 |
 |---|---|---:|---|
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part1.tar` | pending | `pending…` |
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part2.tar` | pending | `pending…` |
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `linux-qcom-122c2c22d838ca826e7f4e7360df96fb4e8f7ad2.tar.gz` | pending | `pending…` |
-| [`bbos-0.1.1`](../../../../releases/tag/bbos-0.1.1) | `bbos-0.1.1-sources-part1.tar` | pending | `pending…` |
-| [`bbos-0.1.8`](../../../../releases/tag/bbos-0.1.8) | `bbos-0.1.8-sources-part1.tar` | pending | `pending…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part1.tar` | 1.59 GB | `58575e5f13b399ae…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part2.tar` | 1.59 GB | `782bb05cbaa13b39…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `linux-qcom-122c2c22d838ca826e7f4e7360df96fb4e8f7ad2.tar.gz` | 255 MB | `6a3de47bfbf28290…` |
+| [`bbos-0.1.1`](../../../../releases/tag/bbos-0.1.1) | `bbos-0.1.1-sources-part1.tar` | 2 MB | `e6e9e811ecf42fa2…` |
+| [`bbos-0.1.8`](../../../../releases/tag/bbos-0.1.8) | `bbos-0.1.8-sources-part1.tar` | 16 MB | `230eb3e7fcc75fc9…` |
 
 ### Notes
 

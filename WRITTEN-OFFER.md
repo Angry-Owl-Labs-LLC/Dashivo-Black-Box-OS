@@ -8,7 +8,7 @@ For at least three years after we last distribute a version of Black Box OS, Ang
 who asks a copy of the complete corresponding source code for that version, on a medium customarily used for software
 interchange, for no more than our cost of physically performing the distribution.
 
-To ask, write to **support@dashivo.app** with the subject "Black Box OS source code" and the version (Settings › About
-on the Black Box, or `/usr/share/doc/dashivo-open-source/release.txt` on the device).
+To ask, write to **support@dashivo.app** with the subject "Black Box OS source code" and the version (on your Black Box's page in your Dashivo
+account, or in `/usr/share/doc/dashivo-open-source/release.txt` on the device).
 
 The complete corresponding source code of every published version is in this repository: see [README.md](README.md).

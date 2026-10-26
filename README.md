@@ -47,8 +47,8 @@ The Dashivo apps, the Dashivo servers and the ESP32 accessory firmware are not p
 | Build | Channel | Built | Packages | Kernel |
 |---|---|---|---:|---|
 | [`0.2.2+1`](releases/0.2.2/) | Beta | 2026-10-25 | 959 | `122c2c22d838` |
-| [`0.2.1+1`](releases/0.2.1/) | Beta · Public beta | 2026-10-25 | 959 ¹ | `122c2c22d838` |
-| [`0.2.1+2`](releases/0.2.1/) | Beta · Public beta | 2026-10-25 | 959 ¹ | `122c2c22d838` |
+| [`0.2.1+1`](releases/0.2.1/) | Beta | 2026-10-25 | 959 ¹ | `122c2c22d838` |
+| [`0.2.1+2`](releases/0.2.1/) | Beta | 2026-10-25 | 959 ¹ | `122c2c22d838` |
 | [`0.2.0+2`](releases/0.2.0/) | Stable | 2026-10-20 | 958 | `122c2c22d838` |
 | [`0.2.0+3`](releases/0.2.0/) | Stable · Dashivo Pro | 2026-10-25 | 958 ¹ | `122c2c22d838` |
 | [`0.1.8`](releases/0.1.8/) | Stable | 2026-10-18 | 958 | `122c2c22d838` |
@@ -65,8 +65,8 @@ its README (the same base image, pinned packages and build scripts). The source 
 
 ## Get the source for a release
 
-1. **Pick the version** your Black Box runs (Settings › About, or `/usr/share/doc/dashivo-open-source/release.txt` on the
-   device) and open [`releases/<version>/`](releases/).
+1. **Pick the version** your Black Box runs (on its page in your Dashivo account, or in
+   `/usr/share/doc/dashivo-open-source/release.txt` on the device) and open [`releases/<version>/`](releases/).
 2. **Download the archives** listed in its `README.md` from the [GitHub releases](../../releases) (`bbos-<version>`
    and the earlier ones it points to). Each is a plain `tar` of Debian source packages (`.dsc`, `.orig.tar.*`,
    `.debian.tar.*`), one folder per package.
@@ -104,8 +104,8 @@ For at least three years after we last distribute a version of Black Box OS, Ang
 who asks a copy of the complete corresponding source code for that version, on a medium customarily used for software
 interchange, for no more than our cost of physically performing the distribution.
 
-To ask, write to **support@dashivo.app** with the subject "Black Box OS source code" and the version (Settings › About
-on the Black Box, or `/usr/share/doc/dashivo-open-source/release.txt` on the device).
+To ask, write to **support@dashivo.app** with the subject "Black Box OS source code" and the version (on your Black Box's page in your Dashivo
+account, or in `/usr/share/doc/dashivo-open-source/release.txt` on the device).
 
 The same offer is on every Black Box at `/usr/share/doc/dashivo-open-source/WRITTEN-OFFER`, with the package list and the
 kernel commit of the version it runs.

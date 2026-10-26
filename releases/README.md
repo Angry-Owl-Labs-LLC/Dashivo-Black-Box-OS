@@ -21,4 +21,4 @@ One folder per published version. Each has:
 | [0.1.3](0.1.3/) | `0.1.3` | 949 | 589 | none new: all in earlier releases |
 | [0.1.2](0.1.2/) | `0.1.2` | 949 | 589 | none new: all in earlier releases |
 | [0.1.1](0.1.1/) | `0.1.1` | 949 | 589 | 1 (2 MB) |
-| [0.1.0](0.1.0/) | `0.1.0` | 945 | 585 | 3 (3.65 GB) |
+| [0.1.0](0.1.0/) | `0.1.0` | 945 | 585 | 3 (3.43 GB) |

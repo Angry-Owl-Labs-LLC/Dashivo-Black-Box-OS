@@ -20,9 +20,9 @@ of the first version that shipped its packages; later versions point back to it)
 
 | Release | Archive | Size | SHA-256 |
 |---|---|---:|---|
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part1.tar` | pending | `pending…` |
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part2.tar` | pending | `pending…` |
-| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `linux-qcom-122c2c22d838ca826e7f4e7360df96fb4e8f7ad2.tar.gz` | pending | `pending…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part1.tar` | 1.59 GB | `58575e5f13b399ae…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `bbos-0.1.0-sources-part2.tar` | 1.59 GB | `782bb05cbaa13b39…` |
+| [`bbos-0.1.0`](../../../../releases/tag/bbos-0.1.0) | `linux-qcom-122c2c22d838ca826e7f4e7360df96fb4e8f7ad2.tar.gz` | 255 MB | `6a3de47bfbf28290…` |
 
 ### Notes
 
