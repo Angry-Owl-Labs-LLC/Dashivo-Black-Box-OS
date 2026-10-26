@@ -12,7 +12,8 @@
   <a href="releases/">Releases</a> &nbsp;·&nbsp;
   <a href="#written-offer">Written offer</a> &nbsp;·&nbsp;
   <a href="#licences">Licences</a> &nbsp;·&nbsp;
-  <a href="https://dashivo.app/hub/">Black Box OS</a>
+  <a href="https://dashivo.app/hub/">Black Box OS</a> &nbsp;·&nbsp;
+  <a href="#support-us">Support us</a>
 </p>
 
 <p align="center">
@@ -45,6 +46,35 @@ This repository holds the source code of its open-source parts. See it live at
 
 - **Website:** [www.dashivo.app](https://www.dashivo.app) (Black Box OS: [dashivo.app/hub](https://dashivo.app/hub/))
 - **Support and source code requests:** [support@dashivo.app](mailto:support@dashivo.app)
+
+## Support us
+
+Dashivo is made by Angry Owl Labs. If Black Box OS is useful to you, you can support our work with crypto. Thank you! 💛
+
+<table>
+  <tr>
+    <td><img src="assets/support/bitcoin.svg" width="40" height="40" alt="Bitcoin"></td>
+    <td><b>Bitcoin</b></td>
+    <td><code>bc1qz7xaxn5czspya8gp2r9060sa5vcthrvyug765e</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/support/ethereum.svg" width="40" height="40" alt="Ethereum"></td>
+    <td><b>Ethereum</b><br><sub>ETH, USDC or USDT</sub></td>
+    <td><code>0x5B3819D1018012065964FCcEb8481C62Ce2a48d2</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/support/solana.svg" width="40" height="40" alt="Solana"></td>
+    <td><b>Solana</b></td>
+    <td><code>H4kTscJjpZrawJWBSSGfEXM8hwDXxB1GPGFCia75mgTJ</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/support/zcash.svg" width="40" height="40" alt="Zcash"></td>
+    <td><b>Zcash</b></td>
+    <td><code>t1aBNYFx4uMdjK9tgb62pWxQp6g5A7T8r8x</code></td>
+  </tr>
+</table>
+
+<sub>Send only on the network named beside each address (USDC and USDT on Ethereum). Crypto sent on another network can't be recovered.</sub>
 
 ## What's in this repository
 
