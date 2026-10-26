@@ -15,6 +15,10 @@
   <a href="https://dashivo.app/hub/">Black Box OS</a>
 </p>
 
+<p align="center">
+  🌐 <a href="https://www.dashivo.app"><b>www.dashivo.app</b></a> &nbsp;·&nbsp; ✉️ <a href="mailto:support@dashivo.app"><b>support@dashivo.app</b></a>
+</p>
+
 ---
 
 ## Black Box OS
@@ -25,6 +29,11 @@
 the vehicle's data on its own, and your phones copy every clip to it over its own Wi-Fi. You flash it from your Dashivo
 account, in your browser. It is Debian GNU/Linux on Arduino's UNO Q image and kernel, with Dashivo's Black Box software
 on top. More at **[dashivo.app/hub](https://dashivo.app/hub/)**.
+
+## Contact
+
+- **Website:** [www.dashivo.app](https://www.dashivo.app) (Black Box OS: [dashivo.app/hub](https://dashivo.app/hub/))
+- **Support and source code requests:** [support@dashivo.app](mailto:support@dashivo.app)
 
 ## What's in this repository
 
@@ -134,5 +143,5 @@ endorsed by Arduino, Debian or Qualcomm.
     <img src="assets/blackbox-os-horizontal-light.svg" height="40" alt="Black Box OS">
   </picture>
   <br>
-  <sub>Questions about this repository or a source code request: <b>support@dashivo.app</b> · © 2026 Angry Owl Labs LLC</sub>
+  <sub>Questions about this repository or a source code request: <b>support@dashivo.app</b> · <a href="https://www.dashivo.app">www.dashivo.app</a> · © 2026 Angry Owl Labs LLC</sub>
 </p>
