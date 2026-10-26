@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>The source code of the open-source software in Black Box OS, for every release.</b><br>
+  <b>Build your own dash cam and vehicle black box. This is the source code of its open-source parts, for every release.</b><br>
   <sub>Linux kernel · Debian packages · the USB drivers we build · licences · written offer</sub>
 </p>
 
@@ -25,10 +25,21 @@
 
 <img align="right" src="assets/blackbox-os-icon-dark.svg" width="96" alt="">
 
-**Black Box OS** turns your own Arduino UNO Q into a Dashivo Black Box: it hides under a seat, records the cameras and
-the vehicle's data on its own, and your phones copy every clip to it over its own Wi-Fi. You flash it from your Dashivo
-account, in your browser. It is Debian GNU/Linux on Arduino's UNO Q image and kernel, with Dashivo's Black Box software
-on top. More at **[dashivo.app/hub](https://dashivo.app/hub/)**.
+**Black Box OS lets anyone build their own dash cam and vehicle black box.**
+
+Get an Arduino UNO Q, a USB-C hub, a microSD card and one or two USB cameras, and Black Box OS turns them into a
+Black Box that:
+
+- 🎥 **records the road** from your cameras, on its own, every time you drive
+- 🚗 **logs your vehicle's data**: speed, RPM, gear and temperatures from an OBD reader
+- 📱 **collects every clip from your phones** over its own Wi-Fi
+- 🫥 **hides out of sight**, under a seat
+
+You put it on the board from your Dashivo account, right in your browser: plug it in, flash it, done.
+
+Under the hood it is Debian GNU/Linux on Arduino's UNO Q image and kernel, with Dashivo's Black Box software on top.
+This repository holds the source code of its open-source parts. See it live at
+**[dashivo.app/hub](https://dashivo.app/hub/)**.
 
 ## Contact
 
